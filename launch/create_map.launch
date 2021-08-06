@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+
+<node pkg="semantic_mapping" type="map.py" name="map" output="screen"/> 
+<node pkg="semantic_mapping" type="orb_obj.py" name="orb_obj" output="screen"/>
+
+
+</launch>
